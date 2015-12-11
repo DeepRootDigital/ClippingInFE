@@ -1,0 +1,150 @@
+/* Hero Area */
+
+.hero {
+  height: 452px;
+  padding-top: 94px;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+/* Favorites */
+
+.favorites-desktop {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.favorites-desktop > * {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.favorites {
+  padding: 35px 0 66px;
+}
+
+.favorites h2 {
+  width: auto;
+  line-height: .6;
+}
+
+.favorites h2:before {
+  top: -15px;
+}
+
+.favorites-control {
+  margin: 0;
+}
+
+.favorites-control button:hover {
+  color: #f6a71f;
+  border-color: #f6a71f;
+}
+
+.favorites-control button {
+  height: 50px;
+}
+
+.favorites-list {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  -webkit-align-content: space-between;
+  align-content: space-between;
+}
+
+.favorites-single {
+  width: 32%;
+  margin-right: 1%;
+  padding-bottom: 86px;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.favorites-single:last-of-type {
+  margin: 0;
+}
+
+.favorites-single-image {
+  overflow: hidden;
+}
+
+.favorites-single-filter {
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.favorites-single:hover .favorites-single-filter {
+  top: 100%;
+  margin-top: -5px;
+}
+
+.favorites-single:hover h3 {
+  color: #f6a71f;
+}
+
+.favorites .cta {
+  margin: 0 auto;
+}
+
+/* Routes */
+
+.routes {
+  padding-bottom: 70px;
+}
+
+.routes h2 {
+  float: left;
+  width: 41%;
+}
+
+.routes p {
+  float: left;
+  width: 41%;
+  clear: left;
+}
+
+.routes #routes-map {
+  float: right;
+  width: 56%;
+  height: 232px;
+  margin: -62px 0 0;
+}
+
+.routes .cta {
+  float: left;
+  margin-top: 45px;
+}
+
+/* Resources */
+
+.resources-list {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.resources-single {
+  display: block;
+  padding: 0 2%;
+  text-align: center;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.resources-single img {
+  margin: 0 0 13px;
+}
+
+.resources .cta {
+  margin: 0 auto;
+}

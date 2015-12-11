@@ -1,0 +1,139 @@
+/*=========================
+   		BODY STYLES
+==========================*/
+
+/* Hero Area */
+
+.home-hero {
+	width: 100%;
+	height: 535px;
+	margin-top: 100px;
+	background-image: url("/ClippingIn/img/noise-white.png");
+	background-repeat: repeat;
+}
+
+.home-hero #spacer {
+	display: block;
+}
+
+.home-hero h1 {
+	width: 108%;
+	font-size: 129px;
+	line-height: .8;
+}
+
+.home-hero h1 span {
+	font-size: 42px;
+}
+
+.home-hero .runner img {
+	position:absolute;
+	max-height:535px;
+	width: initial;
+	padding-left:50px;
+}
+
+.home-hero .hero-cta {
+	position: absolute;
+	z-index:15;
+	width: 620px;
+  margin-top: 45px;
+}
+
+.home-hero .cta {
+	float: left;
+	max-width: 300px;
+}
+
+.home-hero .cta.left {
+	margin-right: 20px;
+}
+
+/* Fact Section */
+
+.fact-section {
+	padding-bottom: 64px;
+}
+
+.fact-section h2 {
+	margin-bottom: 38px;
+}
+
+.fact-section .picture-box {
+	width: initial;
+	margin: 0;
+}
+
+.fact-section .picture-box:first-of-type {
+	display: block;
+	margin-right: 1.5%;
+}
+
+/* Home Section 2 */
+
+.home-section-2 {
+	width: 100%;
+	height: 335px;
+	padding-top: 60px;
+	background-color: #fff;
+}
+
+.home-section-2 h2 {
+	margin-bottom: -3px;
+	text-transform:uppercase;
+	color:#0b2833;
+}
+
+.home-section-2 p {
+	padding: 25px 0 43px;
+	font-size: 17px;
+	line-height: 1.45;
+	color: #555555;
+}
+
+.home-section-2 .map {
+	width: 100%;
+	margin: 0;
+	text-align: right;
+}
+
+.home-section-2 .cta {
+  margin-top: 3px;
+}
+
+/* Home Section 3 */
+
+.home-section-3 {
+	padding-bottom: 45px;
+}
+
+.home-section-3 .col-12 {
+	display: flex;
+}
+
+.home-section-3 .resource-single {
+	display: block;
+	width: 100%;
+	padding: 0 5%;
+	text-align: center;
+}
+
+.home-section-3 .resource-icon {
+	margin: 0 auto;
+}
+
+.home-section-3 .resource-single p {
+	padding: 0;
+}
+
+.home-section-3 .container #resource-cta {
+	padding-top:85px;
+}
+
+.home-section-3 .container #resource-cta {
+	padding: 0;
+}
+
+.home-section-3 .cta {
+	margin-top: 10px;
+}

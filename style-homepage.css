@@ -1,0 +1,156 @@
+/*=========================
+   		BODY STYLES
+==========================*/
+
+/* Hero Area */
+
+.home-hero {
+	position: relative;
+	width: 100%;
+	height: 625px;
+	margin-top: 70px;
+	padding-top: 30px;
+	background-image: url("images/noise-white.png");
+	background-repeat: repeat;
+}
+
+.home-hero #spacer {
+	display:none;
+}
+
+.home-hero h1 {
+	font-family: 'Neue Aachen W01 Regular';
+	font-size: 84px;
+	line-height: .8;
+	text-transform: uppercase;
+}
+
+.home-hero h1 span {
+	display: block;
+	font-family: 'Univers LT W01_47 Light1475998';
+	font-size: 40px;
+	line-height: .9;
+	text-transform: uppercase;
+}
+
+.home-hero h1 strong {
+	font-family: 'Univers LT W01_45 Light1475944';
+	font-weight: normal;
+	color: #74cddf;
+	letter-spacing: -1px;
+}
+
+.home-hero .hero-content .hero-cta {
+  margin-top: 88px;
+}
+
+.home-hero .hero-content .hero-cta .right {
+	float:left;
+}
+
+.home-hero #runner-image {
+	display: none;
+}
+
+.home-hero .cta:first-of-type {
+	margin-bottom: 10px;
+}
+
+/* Fact Section */
+
+.fact-section {
+	width: 100%;
+	padding-top: 55px;
+	background-color: #0b2833;
+}
+
+.fact-section h2 {
+	margin-bottom: 82px;
+	color:#fff;
+}
+
+.fact-section .picture-box {
+	width: 110%;
+	margin: 0 0 -4px -5%;
+	overflow: hidden;
+}
+
+.fact-section .picture-box:first-of-type {
+	display: none;
+}
+
+/* Home Section 2 */
+
+.home-section-2 {
+	position: relative;
+	width: 100%;
+	padding: 60px 0 56px;
+	background-color: #fff;
+}
+
+.home-section-2 h2 {
+	margin-bottom: 19px;
+	color: #0b2833;
+}
+
+.home-section-2 p {
+	font-size: 17px;
+	line-height: 1.45;
+	color: #555555;
+}
+
+.home-section-2 .cta {
+  margin: 54px 0 30px;
+}
+
+.home-section-2 .map {
+	width: 110%;
+	margin-left: -5%;
+	overflow: hidden;
+}
+
+/* Home Section 3 */
+
+.home-section-3 {
+	position: relative;
+	width: 100%;
+	padding: 58px 0 65px;
+	background-image: url("images/section3-noise.png");	
+}
+
+.home-section-3 h2 {
+	margin-bottom: 50px;
+	color: #0b2833;
+}
+
+.home-section-3 .resource-single {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	-webkit-align-items: center;
+	margin-bottom: 30px;
+}
+
+.home-section-3 .resource-icon {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 110px;
+	height: 110px;
+	border: 5px solid #74cddf;
+	border-radius: 150px;
+}
+
+.home-section-3 .resource-single p {
+	padding-left: 20px;
+	font-family: 'Univers LT W01_67 Bold_1476016';
+	font-size: 20px;
+	color: #415b6a;
+}
+
+.home-section-3 .cta {
+	margin: 55px 0 0;
+}
