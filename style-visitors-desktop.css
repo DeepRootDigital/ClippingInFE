@@ -1,0 +1,182 @@
+
+.hero {
+  margin-top: 70px;
+	background-image: url("images/visitor-hero-desktop.png");
+}
+.hero .container {
+	min-width: 100%;
+}
+.hero .hero-content {
+	padding: 0 40px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.hero .container  .col-7 {
+	float: left;
+	max-width: 58.333333%;
+	min-width: 1%;
+	padding-top: 90px;
+}
+.hero .container  .col-5 {
+	float: left;
+	max-width: 41.666665%;
+	min-width: 1%;	
+  padding: 35px 0 35px 25px;
+}
+.hero .container h1 {	
+	font-size: 50px!important;
+	line-height: .9;
+	max-width: 400px;
+}
+.hero .container p {
+	font-size: 17px;
+	padding: 10px 85px 38px 0;
+}
+.hero .container label {
+	font-size: 20px;
+}
+.hero .container button {
+	max-width: 380px;
+	font-size: 18px;
+}
+.favorites-control button {
+	width: 31.7%;
+}
+.hero .container button.submit {
+	padding-left: 20px;
+	text-align: left;
+	background-image: url('images/arrow_blue.png');
+  background-position: 92.5% center;
+  background-repeat: no-repeat;
+}
+.happening {
+	padding-bottom: 90px;
+}
+.happening .container {
+	padding: 62px 10px 0px;
+}
+.happening .container h2 {
+	float: left;
+	width: 50%;
+}
+.happening .container > h5 {
+	text-align: right;
+}
+.happening .container h5 {
+	float: left;
+	width: 50%;
+	margin-top: 0px;
+}
+.happening .container .row1 {
+	padding-bottom: 0px;
+}
+.happening .container .row2 {
+	float:left;
+}
+.happening .container .row2 {
+	display: inline-block;
+	padding-bottom: 75px;
+}
+.happening .container .content-box-inner {
+	max-width: 350px;
+}
+.happening .container .calendar-box .day {
+	padding-top: 70px;
+	}
+.happening .container .clipping-insider-content-box h3 {
+	font-size: 17px;
+}
+.happening .container .clipping-insider-content-box p {
+	font-size: 15px;
+	padding-right:15px;
+}
+.happening .container .clipping-insider-content-box .weblink {
+	font-size: 16px;
+}
+.happening .container .clipping-insider-content-box {
+	float: left;
+	padding-right: 5px;
+	max-width: 33.33%;
+}
+.happening .container .clipping-insider-content-box:last-of-type {
+	padding-right: 0px;
+}
+.happening .container .cta-center {
+	padding-top: 70px;
+}
+.happening .container .cta {
+	max-width: 300px;
+	margin: 0 auto;
+	padding-left: 20px;
+	font-size:18px;
+	text-align: left;
+	background-image: url('images/arrow_blue.png');
+  background-position: 92.5% center;
+  background-repeat: no-repeat;
+}
+/* Routes */
+
+.routes {
+  padding-bottom: 70px;
+}
+
+.routes h2 {
+  float: left;
+  width: 41%;
+}
+
+.routes p {
+  float: left;
+  width: 41%;
+  clear: left;
+}
+
+.routes #routes-map {
+  float: right;
+  width: 56%;
+  height: 232px;
+  margin: -62px 0 0;
+}
+
+.routes .cta {
+  float: left;
+  margin-top: 45px;
+}
+
+/* Resources */
+
+.resources-list {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.resources-single {
+  display: block;
+  padding: 0 2%;
+  text-align: center;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+}
+
+.resources-single img {
+  margin: 0 0 13px;
+}
+
+.resources .cta {
+  margin: 0 auto;
+}
+@media (min-width: 1045px) {
+	.happening .container {
+		min-width: 1026px;
+	}
+	.hero .hero-content {
+		padding:0;
+	}
+	.hero .container .favorites-control button {
+		width:32%;
+	}
+	.happening .container .clipping-insider-content-box {
+		padding:0 0;
+		padding-right: 10px;	
+	}
+}

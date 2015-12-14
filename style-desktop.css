@@ -38,9 +38,8 @@
 .nav .cta-nav {
   position:absolute;
   right:0;
-  width: 23.4%;
   height: 100px;
-  padding: 20px 13px;
+  padding: 20px 22px;
   font-weight:normal;
   background-color:#0b2833;
 }
@@ -177,10 +176,16 @@
 .cta {
   max-width: 320px;
   padding-left: 2.5%;
+  font-size:18px;
   text-align: left;
   background-image: url('images/arrow_blue.png');
   background-position: 92.5% center;
   background-repeat: no-repeat;
+}
+.cta, 
+input[type="submit"] {
+	font-size:18px;
+	text-align:left;
 }
 
 .cta.light:hover {

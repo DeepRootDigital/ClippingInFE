@@ -12,7 +12,9 @@
   font-family: 'Neue Aachen W01 Regular';
   font-size: 55px;
   color: #0b2833;
+  line-height: .85;
   letter-spacing: 3px;
+  word-break: break-word;
   text-transform: uppercase;
 }
 

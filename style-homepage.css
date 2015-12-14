@@ -21,8 +21,11 @@
 .home-hero h1 {
 	font-family: 'Neue Aachen W01 Regular';
 	font-size: 84px;
-	line-height: .8;
-	text-transform: uppercase;
+	color: #0b2833;
+	line-height: .85;
+  letter-spacing: 3px;
+  word-break: break-word;
+  text-transform: uppercase;
 }
 
 .home-hero h1 span {
