@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+
 /* Header */
 
 .nav {
@@ -174,7 +179,7 @@
 
 /* CTAs */
 
-.cta {
+.cta, input[type="submit"] {
   max-width: 320px;
   padding-left: 2.5%;
   text-align: left;
