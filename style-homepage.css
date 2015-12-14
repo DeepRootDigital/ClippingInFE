@@ -20,7 +20,11 @@
 
 .home-hero h1 {
 	font-size: 84px;
-	line-height: .8;
+	color: #0b2833;
+	line-height: .85;
+  letter-spacing: 3px;
+  word-break: break-word;
+  text-transform: uppercase;
 }
 
 .home-hero h1 span {

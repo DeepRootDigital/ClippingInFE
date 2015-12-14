@@ -14,6 +14,10 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
   font-weight:normal;
 }
 
+h1 {
+	color:#0b2833;
+}
+
 a {
   text-decoration: none;
 }
@@ -361,6 +365,7 @@ button.cta, input[type="submit"].cta {
   position: relative;
   font-family: 'Univers LT W01_67 Bold_1476016';
   font-size: 16px;
+  color: #0b2833;
   text-transform: uppercase;
   text-decoration: none;
 }

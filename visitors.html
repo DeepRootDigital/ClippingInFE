@@ -1,11 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  	<meta name="description" content=""/>
+  	<meta name="author" content=""/>
+	  <title id = "title">Clipping In Home</title>
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/9e938639-3c5d-4165-9d18-4d4262fec3af.css"/>
     <link rel="stylesheet" href="normalize.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-living.css">
+    <link rel="stylesheet" href="style-visitors.css">
     <link rel="stylesheet" media="(min-width: 768px)" href="style-desktop.css">
-    <link rel="stylesheet" media="(min-width: 768px)" href="style-living-desktop.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="style-visitors-desktop.css">
   </head>
   <body>
     <header>
@@ -91,46 +98,107 @@
       </nav>
     </header>
     <div class="hero">
-      <div class="container">
-        <h1>Lorem Ipsum Dolor Sit Amet Consectitur</h1>
-      </div>
-    </div>
-    <div class="favorites">
-      <div class="container">
-        <div class="favorites-desktop">
-          <h2>Local Favorites</h2>
-          <div class="favorites-control">
+      <div class="container clearfix">
+      	<div class="hero-content">
+      			<div class="col-7">
+         <h1>Lorem Ipsum Dolor Sit Amet Consectitur</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 			  aliqua.</p> 
+         </div>
+         		<div class="col-5">
+         <label class="cta-question">When's your trip?</label>
+         <button class="cta light">Month</button>
+         <button class="cta light">Year</button> 
+         <label class="cta-question">What are your interests?</label> 
+         <div class="favorites-control">
             <button>Bike</button>
             <button>Run</button>
             <button>Swim</button>
+         </div>	
+          <button class="cta dark submit" id="show-happening">Submit</button>
           </div>
         </div>
-        <div class="favorites-list">
-          <div class="favorites-single">
-            <div class="favorites-single-image">
-              <img src="images/favorites-1.jpg" alt="">
-              <div class="favorites-single-filter"></div>
-            </div>
-            <h3>Lorem Ipsum Dolor Sit Amet, Consectetur Adispiscing Elit</h3>
-          </div>
-          <div class="favorites-single">
-            <div class="favorites-single-image">
-              <img src="images/favorites-1.jpg" alt="">
-              <div class="favorites-single-filter"></div>
-            </div>
-            <h3>Lorem Ipsum Dolor Sit Amet, Consectetur Adispiscing Elit</h3>
-          </div>
-          <div class="favorites-single">
-            <div class="favorites-single-image">
-              <img src="images/favorites-1.jpg" alt="">
-              <div class="favorites-single-filter"></div>
-            </div>
-            <h3>Lorem Ipsum Dolor Sit Amet, Consectetur Adispiscing Elit</h3>
-          </div>
-        </div>
-        <button class="cta light">View More</button>
       </div>
+    </div>	
+    <div class="happening">
+    	<div class="container">
+    		<h2>Things happening during your trip</h2>
+    		<h5>clipping<span>insider.</span></h5>
+    		<div class="row1">
+    		<div class="clipping-insider-content-box">
+    			<div class="content-box-inner">
+    				<div class="calendar-box">
+    				<h5 class="month year">September 2015</h5>
+    			  <h6 class="day">9/25</h6>
+    			</div>
+    				<h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADISPISCING ELIT</h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+    				<a href="#" class="link dark">Read More</a>
+    				</div>
+    		</div>
+    		<div class="clipping-insider-content-box">
+    			<div class="content-box-inner">
+    			<div class="calendar-box">
+    				<h5 class="month year">October 2015</h5>
+    			  <h6 class="day">10/25</h6>
+    			</div>
+    			<h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADISPISCING ELIT</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+    			<a href="#" class="weblink">www.loremipsum.com</a>
+    			</div>
+    		</div>  		
+    		<div class="clipping-insider-content-box">
+    			<div class="content-box-inner">
+    				<div class="calendar-box">
+    					<h5 class="month year">November 2015</h5>
+    			  	<h6 class="day">11/25</h6>
+    				</div>
+    				<h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADISPISCING ELIT</h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+    				<a href="#" class="link dark">Read More</a>
+    			</div>
+    		</div>
+    		</div>
+    		<div class="row2">
+     			<div class="clipping-insider-content-box">
+    			<div class="content-box-inner">
+    				<div class="calendar-box">
+    				<h5 class="month year">September 2015</h5>
+    			  <h6 class="day">9/25</h6>
+    			</div>
+    				<h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADISPISCING ELIT</h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+    				<a href="#" class="link dark">Read More</a>
+    				</div>
+    		</div>
+    			<div class="clipping-insider-content-box">
+    			<div class="content-box-inner">
+    			<div class="calendar-box">
+    				<h5 class="month year">October 2015</h5>
+    			  <h6 class="day">10/25</h6>
+    			</div>
+    			<h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADISPISCING ELIT</h3>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+    			<a href="#" class="weblink">www.loremipsum.com</a>
+    			</div>
+    		</div>  		
+    			<div class="clipping-insider-content-box">
+    			<div class="content-box-inner">
+    				<div class="calendar-box">
+    					<h5 class="month year">November 2015</h5>
+    			  	<h6 class="day">11/25</h6>
+    				</div>
+    				<h3>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADISPISCING ELIT</h3>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+    				<a href="#" class="link dark">Read More</a>
+    			</div>
+    		</div>
+    		</div>
+    		<div class="cta-center">
+    			<button class="cta light">view more</button>
+    		</div>
     </div>
+    </div>
+	
     <div class="routes clearfix">
       <div class="container">
         <h2>San Diego Routes</h2>
@@ -237,7 +305,7 @@
             <label for="email">Email: </label>
             <input type="email" name="email" placeholder="example@clippingin.com">
           </div>
-          <input type="submit" class="light" value="sign up">
+          <input type="submit" class="cta light" value="sign up">
         </form>
       </div>
       <div class="bar-box bottom">
@@ -300,5 +368,6 @@
         </div>
       </div>
     </footer>
+    <script src="clippingin.js"></script>
   </body>
 </html>
