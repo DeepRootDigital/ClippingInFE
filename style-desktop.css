@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+
 /* Header */
 
 .nav {
@@ -173,19 +178,14 @@
 
 /* CTAs */
 
-.cta {
+.cta, input[type="submit"] {
   max-width: 320px;
   padding-left: 2.5%;
-  font-size:18px;
+  font-size: 18px;
   text-align: left;
   background-image: url('images/arrow_blue.png');
   background-position: 92.5% center;
   background-repeat: no-repeat;
-}
-.cta, 
-input[type="submit"] {
-	font-size:18px;
-	text-align:left;
 }
 
 .cta.light:hover {

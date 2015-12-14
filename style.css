@@ -7,18 +7,17 @@
   margin: 0;
   padding: 0;
 }
-script {
-	display:block;
-}
 
 h1,h2,h3,h4,h5,h6,p,ul,ol {
   margin: 0;
   padding: 0;
   font-weight:normal;
 }
+
 h1 {
 	color:#0b2833;
 }
+
 a {
   text-decoration: none;
 }
@@ -113,6 +112,15 @@ a {
   content: " ";
   clear: both;
   visibility: hidden;
+}
+
+h1 {
+  font-family: 'Neue Aachen W01 Regular';
+  font-size: 55px;
+  line-height: .9;
+  color: #0b2833;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -237,6 +245,11 @@ h2:before {
   background-image: url("images/section3-noise.png");
 }
 
+.bar-box.dark-grey .tribar {
+  background-color: transparent;
+  background-image: url("images/section5-noise.png");
+}
+
 /* Forms */
 
 .bms-form {
@@ -274,8 +287,24 @@ h2:before {
   flex-grow: 1;
 }
 
-.bms-form .input-field input:focus {
+.bms-form .input-field input:focus, .bms-form .input-field textarea:focus {
   outline: none;
+}
+
+.bms-form .input-field.textarea {
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+  height: 202px;
+  padding: 19px 3%;
+}
+
+.bms-form .input-field.textarea textarea {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  height: 100%;
+  background: none;
+  border: none;
+  resize: none;
 }
 
 /* CTAs */
@@ -309,6 +338,11 @@ h2:before {
   background-color: #f6a71f;
 }
 
+.cta.dark, input[type="submit"].dark {
+  color: #fff;
+  background-color: #74cddf;
+}
+
 button.cta, input[type="submit"].cta {
   padding-top: 0;
 }
@@ -327,20 +361,21 @@ button.cta, input[type="submit"].cta {
   background-color: #415b6a;
 }
 
-.link.light {
+.link {
   position: relative;
-  color: #0b2833;
+  font-family: 'Univers LT W01_67 Bold_1476016';
   font-size: 16px;
+  color: #0b2833;
   text-transform: uppercase;
   text-decoration: none;
 }
 
+.link.light {
+  color: #0b2833;
+}
+
 .link.dark {
-  position: relative;
   color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 .link.light:after {
