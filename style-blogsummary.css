@@ -1,0 +1,241 @@
+/* Blog Title */
+
+.blog-title {
+  position: relative;
+  height: 530px;
+  margin-top: 70px;
+  padding-top: 40px;
+  background-image: url('images/noise-white.png');
+}
+
+/* Blog Content */
+
+.blog-body {
+  position: relative;
+  background-image: url('images/section3-noise.png');
+}
+
+.featured-image {
+  position: relative;
+  width: 110%;
+  margin-left: -5%;
+  border-top: 5px solid rgb(246,167,31);
+  overflow: hidden;
+}
+
+.featured-image:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: rgba(246,167,31,.1);
+}
+
+.featured-image img {
+  float: right;
+}
+
+.blog-author {
+  margin-top: 25px;
+}
+
+.blog-author img {
+  float: left;
+  margin-right: 7%;
+  border: 2px solid rgb(246,167,31);
+  border-radius: 50px;
+}
+
+.blog-author div {
+  float: left;
+  width: 70%;
+}
+
+.blog-author div p {
+  margin-top: 7px;
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 14px;
+  color: #76838a;
+}
+
+.blog-author div p:first-of-type {
+  margin-bottom: 17px;
+}
+
+.blog-author div p span {
+  text-transform: uppercase;
+}
+
+.clippingin-content {
+  margin-top: 30px;
+}
+
+/* Share */
+
+.share-article {
+  padding: 18px 0 26px;
+  border-top: 1px solid #415b6a;
+  border-bottom: 1px solid #415b6a;
+}
+
+.share-article h3 {
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 19px;
+  color: #415b6a;
+  text-transform: uppercase;
+}
+
+.share-icons {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-content: center;
+  align-content: center;
+  margin-top: 24px;
+}
+
+/* Comment Form */
+
+.comment-form > div:first-of-type {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+  margin: 22px 0 29px;
+}
+
+.comment-form h4 {
+  font-family: 'Univers LT W01_47 Light1475998';
+  font-size: 30px;
+  color: #74cddf;
+}
+
+.comment-form > div:first-of-type p {
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 12px;
+  color: #76838a;
+}
+
+.comment-form > div:first-of-type img {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.bms-form .input-field {
+  margin-bottom: 20px;
+  background-color: rgb(225,225,225);
+}
+
+/* Comment List */
+
+.comments-list {
+  margin: 53px 0 50px;
+  border-bottom: 1px solid #415b6a;
+}
+
+.comments-list ul {
+  list-style-type: none;
+}
+
+.comments-list ul ul {
+  padding-left: 8%;
+}
+
+.comments-list > ul > li {
+  margin-bottom: 35px;
+  border-bottom: 5px solid #f6a71f;
+}
+
+.comments-list > ul > li:last-of-type {
+  margin: 0;
+  border: none;
+}
+
+.comment-top {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #415b6a;
+}
+
+.comments-list ul ul .comment-top {
+  border-bottom: 1px solid #74cddf;
+}
+
+.comments-list h4, .comments-list .comment-date p {
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 14px;
+  color: #76838a;
+  text-transform: uppercase;
+}
+
+.comments-list .comment-date {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+
+.comments-list p.reply-link {
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 19px;
+}
+
+.comment-content {
+  padding: 18px 0 53px;
+}
+
+.comment-content p {
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 17px;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Subscribe */
+
+.blog-subscribe {
+  padding-bottom: 75px;
+}
+
+.blog-subscribe .bms-form {
+  margin-bottom: 59px;
+}
+
+.blog-subscribe h3 {
+  margin-bottom: 15px;
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 22px;
+  color: #0b2833;
+}
+
+.postlist-sidebar h4 {
+  margin-bottom: 6px;
+  font-family: 'Univers LT W01_47 Light1475998';
+  font-size: 24px;
+  color: #f6a71f;
+}
+
+.postlist-sidebar li {
+  margin-bottom: 41px;
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 18px;
+  color: #555;
+  list-style-type: none;
+}
+
+.blog-subscribe .link {
+  font-size: 19px;
+}
+
+/* Extra */
+
+.download-guide .bar-box.top {
+  display: none;
+}
