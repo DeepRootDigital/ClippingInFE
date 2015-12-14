@@ -39,6 +39,12 @@
 	max-width: 380px;
 	font-size: 18px;
 }
+
+.bms-form {
+  max-width: 320px;
+  float: right;
+}
+
 .favorites-control button {
 	width: 31.7%;
 }
