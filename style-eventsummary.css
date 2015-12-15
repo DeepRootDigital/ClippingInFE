@@ -1,0 +1,249 @@
+/* Hero */
+
+.hero {
+  position: relative;
+  margin-top: 70px;
+  background-image: url("images/visitor-hero.png");
+  background-size: cover;
+}
+
+.hero .container {
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  background-color: rgba(255,255,255,.9);
+}
+
+.hero h1 {
+  font-family: 'Neue Aachen W01 Regular';
+  font-size: 55px!important;
+  font-weight: 700;
+  color: #0b2833;
+  line-height: 1;
+  letter-spacing: 1px;
+  word-break: break-word;
+  text-transform: uppercase;
+}
+
+.hero p {
+  padding: 10px 0 38px 0;
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5; 
+}
+
+/* BMS Form */
+
+.cta-question {
+  margin-bottom: 16px;
+}
+
+.favorites-control {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 0 0;
+}
+
+.favorites-control button {
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  height: 55px;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  font-family: 'Neue Aachen W01 Regular';
+  font-size: 18px;
+  color: #74cddf;
+  text-transform: uppercase;
+  background: none;
+  border: 2px solid #74cddf;
+  border-radius: 3px;
+}
+
+.favorites-control button:last-of-type {
+  margin: 0;
+}
+
+.bms-form input[type="date"] {
+  font-family: 'Neue Aachen W01 Regular';
+  color: #74cddf;
+  text-transform: uppercase;
+  background: none;
+  border: 2px solid #74cddf;
+  border-radius: 3px;
+}
+
+/* Happening Results */
+
+.happening {
+  padding-bottom: 65px;
+  background-color: #0b2833;
+}
+
+.happening .container {
+  padding-top: 62px;
+}
+
+.happening .container h5 {
+  margin-top: 40px;
+  font-family: 'Neue Aachen W01 Regular';
+  font-size: 18px;
+  color: #fff;  
+}
+
+.happening .container h5 span {
+  color: #f6a71f;
+}
+
+.happening .container h5:after {
+  display: inline-block;
+  padding-left: 15px;
+  vertical-align: middle;
+  content: url("images/clipping-insider.png");
+}
+
+.happening .container .row1 {
+  float: left;
+  padding-bottom: 75px;
+}
+
+.happening .container .row2 {
+  display: none;
+}
+
+.happening .container .clipping-insider-content-box {
+  margin-top: 55px;
+}
+
+.happening .container .calendar-box {
+  height: 160px;
+  font-family: 'Neue Aachen W01 Regular';
+  text-align: center;
+  background-color: #243e48;
+}
+
+.happening .container .calendar-box .month.year {
+  width: 100%;
+  height: 45px;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 20px;
+  color: #415b6a;
+  background-color: #f6a71f;
+}
+
+.happening .container .calendar-box h5:after {
+  display: none;
+}
+
+.happening .container .calendar-box .day {
+  padding-top: 25px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.happening .container .calendar-box:after {
+  display: block;
+  float: right;
+  width: 32px;
+  height: 32px;
+  margin-top: -6px;
+  padding-left: 10px;
+  vertical-align: middle;
+  background-image: url("images/clipping-insider.png");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.happening .container .clipping-insider-content-box h3 {
+  padding: 20px 0 15px 0;
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 20px;
+  line-height: 1.3;
+  color: #74cddf;
+}
+
+.happening .container .clipping-insider-content-box p {
+  padding: 0 0 20px 0;
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 18px;
+  line-height: 1.4;
+  color: #fafaf9;
+}
+
+.happening .container .clipping-insider-content-box .weblink {
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 19px;
+  color: #fafaf9;
+  cursor: pointer;
+}
+
+.happening .cta-center {
+  margin-top: 85px;
+}
+
+/* Routes */
+
+.routes {
+  padding: 65px 0 55px;
+  background-image: url('images/noise-white.png');
+}
+
+.routes h2 {
+  margin-bottom: 22px;
+  color: #0b2833;
+}
+
+.routes p {
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 18px;
+  line-height: 1.5;
+  color: #555;
+}
+
+#routes-map {
+  width: 110%;
+  height: 375px;
+  margin: 64px 0 55px -5%;
+  background-image: url('images/gmap.jpg');
+  background-size: cover;
+}
+
+/* Resources */
+
+.resources {
+  padding: 63px 0;
+  background-image: url('images/section3-noise.png');
+}
+
+.resources h2 {
+  margin-bottom: 43px;
+  color: #0b2833;
+}
+
+.resources-list {
+  margin-bottom: 85px;
+}
+
+.resources-single {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.resources-single img {
+  margin-right: 21px;
+}
+
+.resources-single p {
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 20px;
+  line-height: 1.2;
+  color: #415b6a;
+}
