@@ -1,0 +1,136 @@
+/* Hero */
+
+.hero { 
+  height: 450px;
+}
+.hero .container {
+  width: 960px;
+}
+.hero .container  .col-6 {
+  float: left;
+  min-width: 1%;
+  padding-top: 90px;
+}
+.hero .container  .col-6:last-of-type {
+  padding-left: 50px;
+}
+.hero .container input.cta.dark {
+  max-width: 100%;
+}
+/* Blog */
+.blog .container {
+  position: relative;
+}
+.blog .blog-container {
+  padding: 0;
+  margin-bottom: 130px;
+}
+.blog .blog-body {
+  position: relative;
+  left: -600px;
+  max-width: 350px;
+  max-height: 290px;
+  transition: .8s;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  -ms-transition: .8s;
+  -o-transition: .8s;
+}
+.blog .blog-body h3 {
+  font-size: 22px;
+}
+.blog .blog-body p {
+  font-size: 15px;
+}
+.blog .blog-body .comment {
+  margin-right: -28px;
+  margin-top: -18px;
+}
+.blog .container > .col-2 {
+  display: block;
+  content: "";
+}
+.blog .blog-image-desktop {
+  position: absolute;
+  top: -1241px;
+  display: block;
+  right: 0;
+  margin-top: -50px;
+}
+.blog .blog-social-2 {
+  position: absolute;
+  right: -350px;
+  display: block;
+  width: 110px;
+  height: 290px;
+  background-color: rgba(255,255,255,.9);
+  border-top: solid 5px #74cddf;
+  transition: .9s;
+  -webkit-transition: .9s;
+  -moz-transition: .9s;
+  -ms-transition: .9s;
+  -o-transition: .9s;
+}
+.blog .blog-social-2 ul {
+  padding-top: 55px;
+  padding-left: 30px;
+  list-style: none;
+} 
+.blog .blog-social-2 ul li {
+  margin-left: 40px;
+  padding-bottom: 35px;
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 12px;
+  color: #415b6a;
+}
+.blog .blog-social-2 ul li img {
+  position: absolute;
+  left: 30px;
+}
+.blog .blog-nav {
+  display: flex;
+}
+.blog .blog-nav.col-4 {
+  min-width: 1%;
+  padding: 25px 0 30px;
+}
+/* Blog Hover Animation */
+.blog .blog-container > .blog-body.active {
+  top: 0;
+  left: 0;
+}
+.blog .blog-social-2.active {
+  top: 0;
+  right: 0;
+}
+.blog #blog-img-1,
+.blog #blog-img-2,
+.blog #blog-img-3 {  
+  transition: .8s;
+  -webkit-transition: .8s;
+  -moz-transition: .8s;
+  -ms-transition: .8s;
+  -o-transition: .8s;
+}
+.blog #blog-img-1.active,
+.blog #blog-img-2.active,
+.blog #blog-img-3.active {
+  top: 0;
+}
+
+
+/* Hidden Blog Elements*/
+.blog .blog-image {
+  display: none;
+}
+.blog .blog-social {
+  display: none;
+}
+.blog .blog-pager {
+  display: none;
+}
+.blog .blog-nav-mobile {
+  display: none;
+}
+/* ======================== */
+
