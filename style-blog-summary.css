@@ -1,0 +1,181 @@
+.hero {
+  position: relative;
+  margin-top: 70px;
+  z-index: 12;
+  background-color: #fff;
+}
+.hero .container {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  height: 100%;
+  background-color: rgba(255,255,255,.9);
+}
+.hero .container  .col-6 {
+  float: none;
+  min-width: 100%;
+}
+.hero .container  .col-6 {
+  float: none;
+  min-width: 100%;
+}
+.hero h1 {
+  font-family: 'Neue Aachen W01 Regular';
+  font-size: 55px!important;
+  font-weight: 700;
+  color: #0b2833;
+  line-height: 1;
+  letter-spacing: 1px;
+  word-break: break-word;
+  text-transform: uppercase;
+}
+.hero p {
+  padding: 10px 0 38px 0;
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5; 
+}
+.hero .container input.cta.dark {
+  color: #fff;
+}
+.hero .container .input-field {
+  background-color: #e1e1e1!important;
+}
+.blog {
+  position: relative;
+  padding:50px 0 80px;
+  z-index: 11;
+  background-color: #0b2833;
+}
+.blog .blog-image {
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin-top: -80px;
+  z-index: 1;
+}
+.blog .blog-image img {
+  width: 100%;
+}
+.blog .blog-image:after {
+  position: absolute;
+  top: 83px;
+  display: block;
+  width: 100%;
+  height: 98.5%;
+  margin-top: -80px;
+  background-color: rgba(246,167,31,.1);
+  content: "";
+}
+.blog-container {
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  z-index: 2;
+}
+.blog-body {
+  padding: 0 5% 20px;
+  background-color: rgba(255,255,255,.9);
+  border-top:solid 5px #f6a71f;
+}
+.blog-body h3 {
+  padding-top: 25px;
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 24px;
+  line-height: 1.2;
+  color: #0b2833;
+  text-transform: uppercase;
+}
+.blog-body p {
+  padding: 15px 0;
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5; 
+}
+.blog-body .comment {
+  text-align: right;
+}
+.blog-body .comment p,
+.blog-body .comment img {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.blog-body .comment img {
+  padding-top: 5px;
+  vertical-align: middle;
+}
+.blog-body .comment p {
+  padding-right: 5px;
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 12px;
+  color: #76838a;
+}
+.blog .blog-social {
+  margin-bottom: 155px;
+  padding-top: 25px;
+  text-align: center;
+} 
+.blog .blog-social:last-of-type {
+  margin-bottom: 90px;
+} 
+.blog .blog-social img {
+  height: 40px;
+  padding-bottom: 5px;
+}
+.blog .blog-social-count p {
+  font-family: 'Univers LT W01_55 Roman1475956';
+  font-size: 12px;
+  color: #76838a;
+}
+.blog .blog-nav {
+  display: flex;
+}
+.blog .blog-nav.col-4 {
+  float: none;
+  min-width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  text-align: center;
+}
+.blog .blog-nav a {
+  cursor: pointer;
+  flex-grow: 1;
+}
+.blog .blog-nav li {
+  list-style: none;
+  flex-grow: 1;
+}
+.blog .blog-nav li a {
+  font-family: 'Univers LT W01_67 Bold_1476016';
+  font-size: 25px;
+  color: #415b6a;
+  list-style: none;
+}
+/* Hidden Blog Elements*/
+.blog .blog-image-desktop {
+  display: none;
+}
+.blog .blog-social-2 {
+  display: none;
+}
+
+
+
+
+/* ======================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
